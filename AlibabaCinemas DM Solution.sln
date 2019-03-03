@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlibabaCinemas DM Solution Documentation", "AlibabaCinemas DM Solution Documentation", "{528B46EC-5F10-4CC8-A12B-AF11240810B4}"
+	ProjectSection(SolutionItems) = preProject
+		AlibabaCinemas DM Solution Documentation\AlibabaCinemas Solution Dimensional Diagram.vsdx = AlibabaCinemas DM Solution Documentation\AlibabaCinemas Solution Dimensional Diagram.vsdx
+		AlibabaCinemas DM Solution Documentation\AlibabaCinemas Solution Documentation .docx = AlibabaCinemas DM Solution Documentation\AlibabaCinemas Solution Documentation .docx
+		AlibabaCinemas DM Solution Documentation\AlibabaCinemas Solution Workbook.xlsx = AlibabaCinemas DM Solution Documentation\AlibabaCinemas Solution Workbook.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlibabaCinemas DM Build", "AlibabaCinemas DM Build", "{A9F285EE-9C00-4D4C-9CBC-F6CBAEF40CE7}"
+	ProjectSection(SolutionItems) = preProject
+		AlibabaCinemas DM Build\BuildAlibabaCinemasDM.sql = AlibabaCinemas DM Build\BuildAlibabaCinemasDM.sql
+	EndProjectSection
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AlibabaCinemas DM ETL", "AlibabaCinemas DM ETL\AlibabaCinemas DM ETL\AlibabaCinemas DM ETL.dtproj", "{4262AF6A-612C-4F7A-9436-54D5F1D7411F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlibabaCinemas DM Multidimensional Analysis", "AlibabaCinemas DM Multidimensional Analysis", "{44503328-2122-48B9-8BB3-0C76779DFAB7}"
+	ProjectSection(SolutionItems) = preProject
+		AlibabaCinemas DM Multidimensional Analysis\AlibabaCinemas DM MultiDimensional Analysis.xlsx = AlibabaCinemas DM Multidimensional Analysis\AlibabaCinemas DM MultiDimensional Analysis.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlibabaCinemas DM Report and Dashboards", "AlibabaCinemas DM Report and Dashboards", "{6E939DA1-D627-476E-9261-D10EE0D1082D}"
+	ProjectSection(SolutionItems) = preProject
+		AlibabaCinemas DM Reports and Dashboards\AlibabaCinemas DM Report and Dashboards.pbix = AlibabaCinemas DM Reports and Dashboards\AlibabaCinemas DM Report and Dashboards.pbix
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4262AF6A-612C-4F7A-9436-54D5F1D7411F}.Development|Default.ActiveCfg = Development
+		{4262AF6A-612C-4F7A-9436-54D5F1D7411F}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44489BE2-9DED-46DC-BCCF-9ABDD73113FD}
+	EndGlobalSection
+EndGlobal
